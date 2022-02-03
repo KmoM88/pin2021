@@ -11,5 +11,5 @@ steps:
 - task: KubernetesManifest@0
   inputs:
     action: 'deploy'
-    kubernetesServiceConnection: 'eks-mundos-e'
+    kubernetesServiceConnection: 'eks-mundos-e-2'
     manifests: 'nginx-deployment.yaml'
